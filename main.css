@@ -50,6 +50,12 @@ body {
     color: #fff;
 }
 
+.btn {
+    display: block;
+    margin-bottom: 10px; /* Adjust the value as needed for more or less space between buttons */
+}
+c
+
 .nav-categoria .nav-link:hover {
     color: #f41f1f;
 }
