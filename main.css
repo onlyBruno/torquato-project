@@ -1,0 +1,72 @@
+body {
+    font-family: "Galdeano", sans-serif;
+}
+
+.navbar {
+    background-color: #53fa31;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #ffffff;
+    color: #3194fe;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-categoria .nav-link.active:hover {
+    color: #3194fe;
+}
+
+.navbar-toggler {
+    background-color: #5cace1;
+}
+
+.section-title {
+    font-family: "Galdeano", sans-serif;
+}
+
+#sobre-o-super, #categoria, #fale-conosco {
+    background-color: #5cace1;
+}
+
+.text-colored {
+    color: #f41f1f;
+}
+
+.nav-categoria .nav-link.active,
+#fale-conosco button {
+    background-color: #53fa31;
+    color: #fff;
+}
+
+.nav-categoria .nav-link:hover {
+    color: #f41f1f;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+#form-group row {
+    display: block;
+    width: 100%;
+}
+
+footer {
+    background-color: #53fa31;
+    color: #3194fe;
+    padding: 16px 0;
+}
+
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
