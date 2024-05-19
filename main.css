@@ -30,6 +30,16 @@ body {
     background-color: #5cace1;
 }
 
+.carousel-item {
+    height: 500px; /* Ajuste a altura conforme necessário */
+}
+
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
 .text-colored {
     color: #f41f1f;
 }
