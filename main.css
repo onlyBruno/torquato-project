@@ -1,25 +1,31 @@
+:root {
+    --cor-principal: #5cace1;
+    --cor-secundaria: #fff;
+    --cor-titulos: #3194fe;
+    --cor-destaque-titulos: #f41f1f;
+}
 body {
     font-family: "Galdeano", sans-serif;
 }
 
 .navbar {
-    background-color: #53fa31;
+    background-color: var(--cor-secundaria);
 }
 
 #cabecalho .nav .nav-link.active {
-    background-color: #ffffff;
-    color: #3194fe;
+    background-color: #bcddf3;
+    color: var(--cor-titulos);
 }
 
 #cabecalho .nav .nav-link,
 .navbar-brand,
 .navbar-brand:hover,
 .nav-categoria .nav-link.active:hover {
-    color: #3194fe;
+    color: var(--cor-titulos);
 }
 
 .navbar-toggler {
-    background-color: #5cace1;
+    background-color: var(--cor-principal);
 }
 
 .section-title {
@@ -46,8 +52,8 @@ body {
 
 .nav-categoria .nav-link.active,
 #fale-conosco button {
-    background-color: #53fa31;
-    color: #fff;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-principal);
 }
 
 .btn {
@@ -57,7 +63,7 @@ body {
 c
 
 .nav-categoria .nav-link:hover {
-    color: #f41f1f;
+    color: var(--cor-destaque-titulos);
 }
 
 .social-links li {
@@ -74,9 +80,13 @@ c
     width: 100%;
 }
 
+form {
+    width: 80%;
+}
+
 footer {
-    background-color: #53fa31;
-    color: #3194fe;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-titulos);
     padding: 16px 0;
 }
 
