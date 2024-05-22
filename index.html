@@ -1139,69 +1139,71 @@
         </section>
         <section id="agendamento" class="pt-5 pb-5">
             <div class="container">
-                <div class="row">
-                    <h2 class="section-title text-center">Agendamento <span class="text-colored">Vacina Aqui!</span>
-                    </h2>
-                    <img src="Images/Vacina.jpeg" alt="" class="d-block w-100 rounded mb-2">
+              <div class="row">
+                <h2 class="section-title text-center w-100">Agendamento <span class="text-colored">Vacina Aqui!</span></h2>
+              </div>
+              <div class="row">
+                <div class="col-md-7">
+                  <img src="Images/Vacina.jpeg" alt="Vacina" class="d-block w-100 rounded mb-2">
                 </div>
-                <div class="form-group row">
-                    <div class="col-md-7 mb-5">
-                        <form>
-                            <div class="col mb-3">
-                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
-                                <input type="text" id="nome" class="form-control" required>
-                            </div>
-                            <div class="col mb-1">
-                                <label for="cpf" class="form-label fw-bold text-colored">CPF</label>
-                                <input type="cpf" id="cpf" class="form-control" required>
-                            </div>
-                            <div class="col mb-3">
-                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone
-                                    (opcional)</label>
-                                <input type="tel" id="telefone" class="form-control">
-                            </div>
-                            <div class="col mb-1">
-                                <label for="iadae" class="form-label fw-bold text-colored">Idade</label>
-                                <input type="idade" id="idade" class="form-control">
-                            </div>
-                            <div class="col mb-3">
-                                <label for="telefone" class="form-label fw-bold text-colored">Sexo</label>
-                                <select id="inputEstado" class="form-control">
-                                    <option selected>Selecione o seu Sexo...</option>
-                                    <option>Masculino</option>
-                                    <option>Feminino</option>
-                                </select>
-                            </div>
-                            <div class="col mb-3">
-                                <label for="cacina" class="form-label fw-bold text-colored">Vacina</label>
-                                <select id="inputEstado" class="form-control">
-                                    <option selected>Escolher....</option>
-                                    <option>Vacina Gardasil 9 - R$880,00</option>
-                                    <option>Vacina Qdenga = R$360,00</option>
-                                    <option>Vacina Shingrix Contem 1 Frasco-Ampola De Pó Liofilizado Para Suspensão
-                                        Injetável (Antígeno Ge) E 1 Frasco-Ampola De Suspensão - R$780,00</option>
-                                    <option>Vacina Bexsero Adsorvida Contra Meningite B Recombinante Seringa Com 0,5ml =
-                                        R$630,00</option>
-                                    <option>Vacina Influvac Tetra (Gripe) 15mcg 0,5ml Inj - R$74,90</option>
-                                    <option>Vacina Refortrix Adsorvida Contra Difteria, Tétano E Pertussis (Acelular)
-                                        Seringa Com 0,5ml = R$165,00</option>
-                                    <option>Vacina menquadfi 1 frasco Colução Injetavel 0,5ml - R$370,00</option>
-                                    <option>Clinic farma vacina Efluelda influenza high Dose 0.7ml 5d Inj Br sanofi -
-                                        R$230,00</option>
-                                    <option>VACINA HEPATITE A ADULTO - R$170,00</option>
-                                    <option>VACINA HEPATITE A INFANTIL - R$105,00</option>
-                                    <option>Vacina Gripe Tetravalente- R$74,90</option>
-                                    <option>Vacina pneumocócica 15 valente - vaxneuvance msd - R$480,00</option>
-                                    <option>Vacina Prevenar 13 Conjugada Contra Pneumonia Seringa Com 0,5ml - R$308,99
-                                    </option>
-                                    <option>Vacina meningocócica b trumenba</option>
-                                    <option>Clinic farma vacina Pentaxim 1 seringa 2 agulhas sanofi</option>
-                                    <option>Clinic farma vacina Hexavalente Hexaxim Sanofi</option>
-                                </select>
-                                <button type="submit" class="btn btn-success bi bi-arrow-right-circle">Agendar</button>
-                        </form>
+                <div class="col-md-5">
+                  <form>
+                    <div class="mb-3">
+                      <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                      <input type="text" id="nome" class="form-control" required>
                     </div>
-        </section>
+                    <div class="mb-3">
+                      <label for="cpf" class="form-label fw-bold text-colored">CPF</label>
+                      <input type="text" id="cpf" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                      <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                      <input type="tel" id="telefone" class="form-control">
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6 mb-3">
+                        <label for="idade" class="form-label fw-bold text-colored">Idade</label>
+                        <input type="number" id="idade" class="form-control">
+                      </div>
+                      <div class="col-md-6 mb-3">
+                        <label for="sexo" class="form-label fw-bold text-colored">Sexo</label>
+                        <select id="sexo" class="form-control">
+                          <option selected>Selecione o seu Sexo...</option>
+                          <option>Masculino</option>
+                          <option>Feminino</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="vacina" class="form-label fw-bold text-colored">Vacina</label>
+                      <select id="vacina" class="form-control">
+                        <option selected>Escolher....</option>
+                        <option>Vacina Gardasil 9 - R$880,00</option>
+                        <option>Vacina Qdenga = R$360,00</option>
+                        <option>Vacina Shingrix Contem 1 Frasco-Ampola De Pó Liofilizado Para Suspensão Injetável (Antígeno Ge) E 1 Frasco-Ampola De Suspensão - R$780,00</option>
+                        <option>Vacina Bexsero Adsorvida Contra Meningite B Recombinante Seringa Com 0,5ml = R$630,00</option>
+                        <option>Vacina Influvac Tetra (Gripe) 15mcg 0,5ml Inj - R$74,90</option>
+                        <option>Vacina Refortrix Adsorvida Contra Difteria, Tétano E Pertussis (Acelular) Seringa Com 0,5ml = R$165,00</option>
+                        <option>Vacina menquadfi 1 frasco Colução Injetavel 0,5ml - R$370,00</option>
+                        <option>Clinic farma vacina Efluelda influenza high Dose 0.7ml 5d Inj Br sanofi - R$230,00</option>
+                        <option>VACINA HEPATITE A ADULTO - R$170,00</option>
+                        <option>VACINA HEPATITE A INFANTIL - R$105,00</option>
+                        <option>Vacina Gripe Tetravalente- R$74,90</option>
+                        <option>Vacina pneumocócica 15 valente - vaxneuvance msd - R$480,00</option>
+                        <option>Vacina Prevenar 13 Conjugada Contra Pneumonia Seringa Com 0,5ml - R$308,99</option>
+                        <option>Vacina meningocócica b trumenba</option>
+                        <option>Clinic farma vacina Pentaxim 1 seringa 2 agulhas sanofi</option>
+                        <option>Clinic farma vacina Hexavalente Hexaxim Sanofi</option>
+                      </select>
+                    </div>
+                    <button type="submit" class="btn btn-success bi bi-arrow-right-circle"> Agendar</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+          
         <section id="fale-conosco" class="pt-5 pb-5">
             <div class="container">
                 <div class="row">
