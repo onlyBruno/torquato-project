@@ -47,7 +47,7 @@ body {
 }
 
 .text-colored {
-    color: #f41f1f;
+    color: var(--cor-destaque-titulos);
 }
 
 .nav-categoria .nav-link.active,
